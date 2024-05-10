@@ -1,16 +1,19 @@
 body{
-  background-color: black;
-
-  /*
-background-image: url (./assets/bg-mobile.jpg);
-background-repeat: no-repeat;
-background-position: top center;
-background-size: cover;
-*/
+  background-image: url(./assets/back.light.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 
   /*background: color image repeat position/size
 isso é um atalho ou shorthand
 */
 
 
+}
+
+#container {
+  width: 360px;
+  height: 712px;
+  border: 1px solid rebeccapurple;
+  margin: 56px auto 0px;  
 }
