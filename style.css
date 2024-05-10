@@ -13,7 +13,18 @@ isso é um atalho ou shorthand
 
 #container {
   width: 360px;
-  height: 712px;
   border: 1px solid rebeccapurple;
   margin: 56px auto 0px;  
+}
+
+#profile {
+text-align: center;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#arroba {
+  text-align: center;
 }
