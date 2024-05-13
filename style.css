@@ -54,18 +54,28 @@ text-align: center;
 }
 
 #link {
- border: 2px solid gray;
- color: brown;
+background: rgba(250, 250, 250, 0.001);
 }
 
 ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-ul li {
-  border: 1px solid purple;
+ul li a {
   display: flex;
-  justify-content: center;
-  height: 52px;
-  align-items: center;
+  flex-direction: column;
+  padding: 16px 24px;
+  text-align: center;
+
+  background: rgba(256, 257, 258, 0.3);
+  border: 1px solid rgba(256, 257, 258, 0.6);
+
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  text-decoration: none;
 }
