@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url(./assets/back.pc.jpg);
+  background-image: url(./assets/back.light.mobile.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -51,8 +51,8 @@ text-align: center;
   align-items: baseline;
   font-weight: 100px;
   font-size: 30px;
-  margin: 50px 0 25px;
-
+  margin-top: 56px;
+  margin: 50px 0 300px;
 }
 
 #link {
@@ -125,10 +125,30 @@ background: rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.6);
 
 }
-
 footer {
   padding: 24px 0;
   text-align: center;
   justify-content: center;
   font-size: 14px;
 }
+
+#container-foto {
+  padding-left: 80px;
+  display: flex;
+  align-items: center; /* Alinha verticalmente ao centro */
+  text-align: left; /* Garante que o texto fique alinhado à esquerda */
+}
+
+#foto img {
+  width: 400px; /* Ajuste a largura da imagem conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin-right: 40px; /* Espaço entre a imagem e o texto */
+}
+
+#bio {
+  margin-left: auto; /* Empurra o texto para a direita */
+  text-align: right; /* Alinha o texto dentro do parágrafo à direita */
+  font-size: 30px;
+  font-style: oblique;
+  margin: 0;
+  padding-right: 40px;
