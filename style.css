@@ -130,12 +130,20 @@
     margin-bottom: 20px;
 }
 
+#container-bio{
+   margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
 #bio {
     text-align: center;
-    font-size: 25px;
-    font-style: oblique;
-    font-weight: 500;
+    font-size: 30px;
+    font-style: oblique
+    font-weight: 200;
+    
 }
+ 
 
 #services {
     text-align: center;
