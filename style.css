@@ -1,154 +1,144 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  background-image: url(./assets/back.light.mobile.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-  /*background: color image repeat position/size
-isso é um atalho ou shorthand
-*/
-
-
-}
-
-#container {
-  width: 360px;
-  margin: 56px auto 0px;  
-}
-
-#profile {
-text-align: center;
-}
-
-#profile img {
-  width: 112px;
-  margin: 56px auto 0px;
-}
-
-#write {
+  body {
+    background-image: url(assets/Definitiva.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    /*background: color image repeat position/size
+  isso é um atalho ou shorthand
+  */
+  }
+  #container {
+    width: 360px;
+    margin: 56px auto 0px;  
+  }
+  #profile {
   text-align: center;
-  font-weight: 700;
-  line-height: 50px;
-  margin-top: 0px;
+  }
+  #profile img {
+    width: 212px;
+    height: auto;
+    margin: 10px auto 0px;
+  }
+  #write {
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  #write1 {
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  #frase {
+   align-items: baseline;
+    font-weight: 200;
+    font-size: 30px;
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  #link {
+    background: rgba(250, 250, 250, 0.001);
+    border: 1.5px solid transparent; /* Borda transparente no estado normal */
+    border-radius: 8px;
+    transition: background 0.3s ease, border-color 0.3s ease; /* Adiciona transição */
+  }
+  #link:hover {
+    background: rgba(48, 41, 41, 0.3);
+    border-color: black; /* Muda a cor da borda no estado de hover */
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+  }
+  ul li a {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px;
+    text-align: center;
+    background: rgba(256, 257, 258, 0.3);
+    border: 1px solid black;
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    transition: all 0.5s;
+  }
 
-}
-
-#write1 {
-  text-align: center;
-  font-weight: 400;
-  line-height: 20px;
-  margin-bottom: 20px;
-  font-size: 12px;
-}
-
-#frase {
-  text-align: center;
-  align-items: baseline;
-  font-weight: 100px;
-  font-size: 30px;
-  margin-top: 56px;
-  margin: 50px 0 300px;
-}
-
-#link {
-  background: rgba(250, 250, 250, 0.001);
-  border: 1.5px solid transparent; /* Borda transparente no estado normal */
-  border-radius: 8px;
-  transition: background 0.3s ease, border-color 0.3s ease; /* Adiciona transição */
-}
-
-#link:hover {
-  background: rgba(48, 41, 41, 0.3);
-  border-color: black; /* Muda a cor da borda no estado de hover */
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-
-  padding: 24px;
-}
-
-ul li a {
-  display: flex;
-  flex-direction: column;
-  padding: 16px 24px;
-  text-align: center;
-
-  background: rgba(256, 257, 258, 0.3);
-  border: 1px solid black;
-
-  border-radius: 8px;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-
-  text-decoration: none;
-
-  transition: all 0.5s;
-}
-
-/*mouse*/
-
-ul li a:hover {
-background: rgba(255, 255, 255, 0.6);
-  border: 1.5px solid white;
-}
-
-/*social links*/
-
-#social-links {
-  display: flex;
-  gap: 32px;
-  padding: 24px 0;
-  font-size: 24px;
-  justify-content: center;
-}
-
-#social-links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  border-radius: 50%;
-
-  transition: background 0.3s;
-}
-
-#social-links a:hover{
+  ul li a:hover {
   background: rgba(255, 255, 255, 0.6);
+    border: 1.5px solid white;
+  }
 
-}
-footer {
-  padding: 24px 0;
-  text-align: center;
-  justify-content: center;
-  font-size: 14px;
+  #social-links {
+    display: flex;
+    gap: 32px;
+    padding: 24px 0;
+    font-size: 24px;
+    justify-content: center;
+  }
+  #social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 50%;
+    transition: background 0.3s;
+  }
+  #social-links a:hover{
+    background: rgba(255, 255, 255, 0.6);
+  
+  }
+  
+  footer {
+    padding: 24px 0;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+  
+  #container-foto {
+    flex-direction: column;
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    text-align: center; /* Garante que o texto fique alinhado à esquerda */
+  }
+  
+  #foto img {
+    width: 400px; /* Ajuste a largura da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Espaço entre a imagem e o texto */
+    align-items: center;
 }
 
-#container-foto {
-  padding-left: 80px;
-  display: flex;
-  align-items: center; /* Alinha verticalmente ao centro */
-  text-align: left; /* Garante que o texto fique alinhado à esquerda */
-}
-
-#foto img {
-  width: 400px; /* Ajuste a largura da imagem conforme necessário */
-  height: auto; /* Mantém a proporção da imagem */
-  margin-right: 40px; /* Espaço entre a imagem e o texto */
+#container-bio, .container-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 #bio {
-  margin-left: auto; /* Empurra o texto para a direita */
-  text-align: right; /* Alinha o texto dentro do parágrafo à direita */
-  font-size: 30px;
-  font-style: oblique;
-  margin: 0;
-  padding-right: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+#services {
+    text-align: center;
+    padding: 20px;
+    font-weight: 20;
+}
